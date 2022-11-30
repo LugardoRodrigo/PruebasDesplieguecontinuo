@@ -1,4 +1,4 @@
-image: roxsross12/node-chrome
+image: LugardoRodrigo/node-chrome
 
 cache:
   paths:
