@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "buildProd": "ng build --c=production --aot --buildOptimizer=true --estractLicenses=true --source-map=false --base-href=/PruebasDesplieguecontinuo",
+    "build": "ng build --c=production --aot --buildOptimizer=true --extractLicenses=true --source-map=false",
+    "buildProd": "ng build --c=production --aot --buildOptimizer=true --extractLicenses=true --source-map=false --base-href=/PruebasDesplieguecontinuo",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test --browsers=Headless --watch=false"
   },
   "private": true,
   "dependencies": {
