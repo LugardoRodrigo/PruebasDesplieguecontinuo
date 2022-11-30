@@ -27,7 +27,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat ''
+                bat 'firebase deploy --token %PUEBAFIRE'
             }
         }
     }
