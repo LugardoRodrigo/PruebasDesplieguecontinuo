@@ -13,11 +13,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                bat 'npm run ng test'
-            }
-        }
 
         stage('Build') {
             steps {
